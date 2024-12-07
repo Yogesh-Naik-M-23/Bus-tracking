@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Live Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="login-btn">Login</button>
+    </header>
+
+    <main>
+        <form action="buses.html" method="GET">
+            <div class="input-field">
+                <label for="src">Source:</label>
+                <input type="text" id="src" name="src" placeholder="Enter source" required>
+            </div>
+            <div class="input-field">
+                <label for="dst">Destination:</label>
+                <input type="text" id="dst" name="dst" placeholder="Enter destination" required>
+            </div>
+            <button type="submit" class="get-bus-btn">Get Bus</button>
+        </form>
+    </main>
+</body>
+</html>
